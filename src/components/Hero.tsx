@@ -4,15 +4,8 @@ import heroImage from "@/assets/hero-image.jpg";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Canadian public affairs leaders"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
-      </div>
+      {/* Background Color */}
+      <div className="absolute inset-0" style={{ backgroundColor: '#ecebe8' }}></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
