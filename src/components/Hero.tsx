@@ -29,7 +29,7 @@ const Hero = () => {
         </p>
         
         <div className="flex items-center justify-center gap-5 mb-8">
-          <span className="text-2xl text-black font-glacial">Presented by</span>
+          <span className="text-2xl text-black font-glacial font-bold">Presented by</span>
           <img 
             src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
             alt="Page logo" 
