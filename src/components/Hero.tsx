@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0" style={{ backgroundColor: '#ecebe8' }}></div>
       
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white font-glacial">
         <h1 className="text-5xl md:text-7xl mb-6 leading-tight font-bodoni italic text-black">
           Rising
           <span className="text-black"> 30</span>

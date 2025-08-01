@@ -65,6 +65,8 @@ export default {
 			},
 			fontFamily: {
 				'bodoni': ['Bodoni Moda', 'serif'],
+				'glacial': ['Inter', 'sans-serif'], // Using Inter as closest alternative to Glacial Indifference
+				'sans': ['Inter', 'sans-serif'],
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
