@@ -39,9 +39,9 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
-            variant="hero" 
+            variant="default" 
             size="lg"
-            className="text-lg px-8 py-4 h-auto text-white !bg-[#418476] hover:!bg-[#367066]"
+            className="text-lg px-8 py-4 h-auto text-white !bg-[#418476] hover:!bg-[#367066] !bg-none"
           >
             Nominate a Leader
           </Button>
