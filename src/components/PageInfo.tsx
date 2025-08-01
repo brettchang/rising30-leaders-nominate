@@ -8,7 +8,7 @@ const PageInfo = () => {
             <img 
               src="/lovable-uploads/43b04b5b-4ef4-4e57-9b23-7e47a54752f6.png" 
               alt="Page logo" 
-              className="h-24 w-auto"
+              className="h-48 w-auto"
             />
           </div>
           
