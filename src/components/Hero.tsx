@@ -16,9 +16,9 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-bodoni italic text-black">
+        <h1 className="text-5xl md:text-7xl mb-6 leading-tight font-bodoni italic text-black">
           Rising
-          <span className="text-accent font-extrabold"> 30</span>
+          <span className="text-black"> 30</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto">
