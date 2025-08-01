@@ -2,7 +2,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Who will decide the winners?",
-      answer: "A panel of industry experts"
+      answer: "Winners will be chosen by a panel of judges based on their professional achievements, innovative approaches, leadership qualities, and involvement in the community."
     },
     {
       question: "When will the winners be announced?",
