@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-primary text-primary-foreground py-12">
+    <footer className="text-primary-foreground py-12" style={{ backgroundColor: '#418476' }}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center space-y-6">
           <h3 className="text-3xl font-bold">Know Someone Who Deserves Recognition?</h3>
