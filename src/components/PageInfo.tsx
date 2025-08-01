@@ -4,9 +4,9 @@ const PageInfo = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Logo Column */}
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center">
             <img 
-              src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
+              src="/lovable-uploads/43b04b5b-4ef4-4e57-9b23-7e47a54752f6.png" 
               alt="Page logo" 
               className="h-24 w-auto"
             />
