@@ -41,8 +41,7 @@ const Hero = () => {
           <Button 
             variant="hero" 
             size="lg"
-            className="text-lg px-8 py-4 h-auto text-white"
-            style={{ backgroundColor: '#418476' }}
+            className="text-lg px-8 py-4 h-auto text-white !bg-[#418476] hover:!bg-[#367066]"
           >
             Nominate a Leader
           </Button>
