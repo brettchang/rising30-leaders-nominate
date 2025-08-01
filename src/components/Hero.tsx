@@ -14,7 +14,7 @@ const Hero = () => {
           <img 
             src="/lovable-uploads/bb8b9c79-9aee-4402-97d9-2de36bbf8974.png" 
             alt="Canadian Parliament Building" 
-            className="mx-auto h-32 md:h-40 w-auto"
+            className="mx-auto h-40 md:h-52 w-auto"
           />
         </div>
         
