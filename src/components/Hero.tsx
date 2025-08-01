@@ -45,13 +45,6 @@ const Hero = () => {
           >
             Nominate a Leader
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="text-lg px-8 py-4 h-auto border-white text-white hover:bg-white hover:text-primary"
-          >
-            Learn More
-          </Button>
         </div>
       </div>
       
