@@ -23,7 +23,7 @@ const Hero = () => {
           <span className="text-black"> 30</span>
         </h1>
         
-        <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto text-black tracking-[27px]">
+        <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto text-black">
           Celebrating Canada's most promising emerging leaders in public affairs. 
           An annual recognition of innovation, impact, and excellence.
         </p>
