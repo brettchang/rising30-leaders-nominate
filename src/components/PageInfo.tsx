@@ -22,9 +22,14 @@ const PageInfo = () => {
               Page turns government noise into a competitive advantage — real-time insights, effortless tracking, and a suite of AI-powered tools for government relations professionals.
             </p>
             
-            <p className="text-lg text-foreground font-semibold">
+            <a 
+              href="https://withpage.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-lg text-foreground font-semibold hover:text-[#418476] transition-colors"
+            >
               Learn more about Page
-            </p>
+            </a>
           </div>
         </div>
       </div>
