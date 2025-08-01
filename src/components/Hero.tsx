@@ -28,12 +28,12 @@ const Hero = () => {
           An annual recognition of innovation, impact, and excellence.
         </p>
         
-        <div className="flex items-center justify-center gap-3 mb-8">
-          <span className="text-lg text-black font-glacial">Presented by</span>
+        <div className="flex items-center justify-center gap-4 mb-8">
+          <span className="text-xl text-black font-glacial">Presented by</span>
           <img 
             src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
             alt="Page logo" 
-            className="h-8 w-auto"
+            className="h-10 w-auto"
           />
         </div>
         
