@@ -9,6 +9,15 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white font-glacial">
+        {/* Parliament Building Image */}
+        <div className="mb-8">
+          <img 
+            src="/lovable-uploads/bb8b9c79-9aee-4402-97d9-2de36bbf8974.png" 
+            alt="Canadian Parliament Building" 
+            className="mx-auto h-32 md:h-40 w-auto"
+          />
+        </div>
+        
         <h1 className="text-5xl md:text-7xl mb-6 leading-tight font-bodoni italic text-black">
           Rising
           <span className="text-black"> 30</span>
