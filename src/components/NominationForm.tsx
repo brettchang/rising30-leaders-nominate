@@ -1,12 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
 
 const NominationForm = () => {
-  const navigate = useNavigate();
-
-  const handleNavigateToForm = () => {
-    navigate("/nomination-form");
-  };
 
   return (
     <section className="py-20 bg-gradient-subtle">
@@ -22,11 +16,17 @@ const NominationForm = () => {
         
         <div className="text-center">
           <Button 
-            onClick={handleNavigateToForm}
             size="lg" 
             className="text-lg px-8 py-4 h-auto text-white !bg-[#418476] hover:!bg-[#367066] !bg-none"
+            asChild
           >
-            Start Nomination Form
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeeZDc-t1t1SLZOG_LQlQzZMcHHDWBb5nnmtUL1iZzwYe_0dg/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Start Nomination Form
+            </a>
           </Button>
         </div>
       </div>

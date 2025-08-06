@@ -1,12 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
-  const navigate = useNavigate();
-
-  const handleNominate = () => {
-    navigate("/nomination-form");
-  };
 
   return (
     <footer className="text-primary-foreground py-12" style={{ backgroundColor: '#418476' }}>
@@ -17,12 +11,18 @@ const Footer = () => {
             Help us identify Canada's rising public affairs leaders. Submit your nomination today.
           </p>
           <Button 
-            onClick={handleNominate}
             variant="secondary" 
             size="lg"
             className="text-lg px-8 py-4 h-auto"
+            asChild
           >
-            Submit a Nomination
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeeZDc-t1t1SLZOG_LQlQzZMcHHDWBb5nnmtUL1iZzwYe_0dg/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Submit a Nomination
+            </a>
           </Button>
         </div>
         
