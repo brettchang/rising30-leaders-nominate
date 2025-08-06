@@ -35,6 +35,11 @@ const Hero = () => {
             alt="Page logo" 
             className="h-12 w-auto"
           />
+          <img 
+            src="/lovable-uploads/0614deca-3570-4999-8688-929b81ac3f07.png" 
+            alt="The Peak logo" 
+            className="h-12 w-auto"
+          />
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
