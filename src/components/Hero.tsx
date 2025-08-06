@@ -35,6 +35,7 @@ const Hero = () => {
             alt="Page logo" 
             className="h-12 w-auto"
           />
+          <span className="text-2xl text-black font-glacial font-bold">&</span>
           <img 
             src="/lovable-uploads/0614deca-3570-4999-8688-929b81ac3f07.png" 
             alt="The Peak logo" 
