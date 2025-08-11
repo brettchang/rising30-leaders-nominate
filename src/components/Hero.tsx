@@ -37,12 +37,12 @@ const Hero = () => {
               className="h-12 w-auto"
             />
           </div>
-          <div className="flex items-center gap-3">
-            <span className="text-2xl text-black font-glacial font-bold">Supported by</span>
+          <div className="flex items-center gap-2">
+            <span className="text-xl text-black font-glacial font-bold">Supported by</span>
             <img 
               src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
               alt="Page logo" 
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </div>
         </div>
