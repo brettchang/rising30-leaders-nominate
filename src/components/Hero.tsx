@@ -28,19 +28,23 @@ const Hero = () => {
           An annual recognition of innovation, impact, and excellence.
         </p>
         
-        <div className="flex items-center justify-center gap-5 mb-8">
-          <span className="text-2xl text-black font-glacial font-bold">Presented by</span>
-          <img 
-            src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
-            alt="Page logo" 
-            className="h-12 w-auto"
-          />
-          <span className="text-2xl text-black font-glacial font-bold">&</span>
-          <img 
-            src="/lovable-uploads/0614deca-3570-4999-8688-929b81ac3f07.png" 
-            alt="The Peak logo" 
-            className="h-12 w-auto"
-          />
+        <div className="flex flex-col items-center justify-center gap-3 mb-8">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl text-black font-glacial font-bold">Presented by</span>
+            <img 
+              src="/lovable-uploads/0614deca-3570-4999-8688-929b81ac3f07.png" 
+              alt="The Peak logo" 
+              className="h-12 w-auto"
+            />
+          </div>
+          <div className="flex items-center gap-3">
+            <span className="text-2xl text-black font-glacial font-bold">Supported by</span>
+            <img 
+              src="/lovable-uploads/acc7899c-082c-4839-95e5-c9d8f3020c75.png" 
+              alt="Page logo" 
+              className="h-12 w-auto"
+            />
+          </div>
         </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
