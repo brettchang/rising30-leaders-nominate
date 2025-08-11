@@ -10,7 +10,7 @@ const FAQ = () => {
     },
     {
       question: "Who's organizing this?",
-      answer: "Page: the real-time government relations platform built for professionals"
+      answer: "The Peak, Canada's most read business newsletter, and Page, the real-time government relations platform built for professionals."
     }
   ];
 
