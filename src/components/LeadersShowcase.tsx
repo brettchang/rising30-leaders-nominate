@@ -64,12 +64,12 @@ const LeadersShowcase = () => {
                   <img src={leader.image_url || '/placeholder.svg'} alt={`${leader.name} - ${leader.title} at ${leader.company}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="p-6 text-center">
-                  <p className="text-sm text-muted-foreground mb-2 leading-relaxed">
-                    {leader.title}, {leader.company}
-                  </p>
-                  <h3 className="text-lg font-bold text-foreground">
+                  <h3 className="text-lg font-bold text-foreground mb-2">
                     {leader.name}
                   </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    {leader.title}, {leader.company}
+                  </p>
                 </div>
               </Card>)}
           </div>}
